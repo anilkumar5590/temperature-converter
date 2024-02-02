@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.converter {
+  background: #3a4452;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  color: #fff;
+  font-size: 20px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+#celsius,
+#fahren,
+#kelvin {
+  width: 250px;
+}
